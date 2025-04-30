@@ -55,6 +55,12 @@ pip install -r requirements.txt
 
 ## ▶️ Live Demo
 
+**_Streamlit link below:_**
+
+```link
+https://chatbot-6maxwigaaogbzbpraztajf.streamlit.app/
+```
+
 ## 📊 Dataset
 
 The chatbot uses a cleaned version of the Conversation.csv dataset (3,700+ rows). Each entry contains a question and answer, which are embedded using SentenceTransformers.
