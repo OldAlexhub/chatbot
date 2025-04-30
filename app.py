@@ -5,7 +5,7 @@ from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 
 # Load model
-model = SentenceTransformer('all-mpnet-base-v2')
+model = SentenceTransformer('paraphrase-MiniLM-L6-v2')
 
 # Load and embed dataset
 @st.cache_data(show_spinner=False)
